@@ -21,10 +21,12 @@
     <br />
 &nbsp;<br />
     <strong>Tranasfencia Q.: </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <asp:TextBox ID="monto" runat="server" TextMode="Number" Width="199px"></asp:TextBox>
+    <asp:TextBox ID="monto" runat="server" TextMode="Number"  step="0.01" Width="199px"  min="0"></asp:TextBox>
     <br />
 &nbsp;
     <br />
+    <br />
+    <asp:Label ID="mensaje" runat="server" Font-Bold="True" Font-Italic="True" ForeColor="#339933"></asp:Label>
     <br />
     <br />
     <asp:Button ID="transferencia" runat="server" Text="REALIZAR TRANSFERENCIA" OnClick="transferencia_Click" />
