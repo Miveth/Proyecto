@@ -42,7 +42,7 @@ namespace Pro_AYD2_1.Account
                 DataRow row = dt.Rows[0];
                 Session["user"] = row["nombre"].ToString();
                 Session["cuenta"] = Email.Text;
-                Response.Redirect("WebForm2.aspx");
+                Response.Redirect("MENU.aspx");
             }
 
             else

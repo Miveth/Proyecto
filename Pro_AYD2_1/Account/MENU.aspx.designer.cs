@@ -10,16 +10,7 @@
 namespace Pro_AYD2_1.Account {
     
     
-    public partial class WebForm2 {
-        
-        /// <summary>
-        /// Control Button1.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+    public partial class MENU {
         
         /// <summary>
         /// Control sesion.
@@ -40,31 +31,22 @@ namespace Pro_AYD2_1.Account {
         protected global::System.Web.UI.WebControls.Label noCuenta;
         
         /// <summary>
-        /// Control cuenta.
+        /// Control Button1.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox cuenta;
+        protected global::System.Web.UI.WebControls.Button Button1;
         
         /// <summary>
-        /// Control monto.
+        /// Control Button2.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox monto;
-        
-        /// <summary>
-        /// Control transferencia.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button transferencia;
+        protected global::System.Web.UI.WebControls.Button Button2;
         
         /// <summary>
         /// Control logo.

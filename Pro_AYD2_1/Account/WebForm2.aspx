@@ -1,6 +1,9 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="WebForm2.aspx.cs" Inherits="Pro_AYD2_1.Account.WebForm2" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <br />
+    <asp:Button ID="Button1" runat="server" CssClass="control-label" ForeColor="Black" Text="Consultar Saldo" />
+    <br />
+    <br />
     <asp:Label ID="sesion" runat="server" CssClass="col-md-2 control-label"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <asp:Label ID="noCuenta" runat="server" CssClass="col-md-2 control-label"></asp:Label>
@@ -24,7 +27,7 @@
     <br />
     <br />
     <br />
-    <asp:Button ID="transferencia" runat="server" Text="REALIZAR TRANSFERENCIA" />
+    <asp:Button ID="transferencia" runat="server" Text="REALIZAR TRANSFERENCIA" OnClick="transferencia_Click" />
     <br />
     <br />
     <br />
