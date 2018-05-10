@@ -5,11 +5,15 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Owin;
 using Pro_AYD2_1.Models;
+using System.Data.SqlClient;
+using System.Data;
+using System.Web.Providers.Entities;
 
 namespace Pro_AYD2_1.Account
 {
     public partial class Login : Page
     {
+        DBComun cn = new DBComun();
         protected void Page_Load(object sender, EventArgs e)
         {
             RegisterHyperLink.NavigateUrl = "Register";
@@ -25,7 +29,24 @@ namespace Pro_AYD2_1.Account
 
         protected void LogIn(object sender, EventArgs e)
         {
-            if (IsValid)
+
+            SqlDataAdapter sda = new SqlDataAdapter("select * from usuario where email = '"+Email.Text+"' and pass = '"+Password.Text+"';",cn.conexion);
+            DataTable dt = new DataTable();
+            sda.Fill(dt);
+
+            if (dt.Rows.Count.ToString()=="1")
+            {
+                Session["user"] = Email.Text;
+                Response.Redirect("WebForm1.aspx");
+            }
+
+            else
+            {
+                FailureText.Text = "Intento de inicio de sesión no válido";
+                ErrorMessage.Visible = true;
+
+            }
+     /*       if (IsValid)
             {
                 // Validar la contraseña del usuario
                 var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
@@ -56,6 +77,8 @@ namespace Pro_AYD2_1.Account
                         break;
                 }
             }
-        }
+        
+    */}
+        
     }
 }
