@@ -30,14 +30,19 @@ namespace Pro_AYD2_1.Account
         protected void LogIn(object sender, EventArgs e)
         {
 
-            SqlDataAdapter sda = new SqlDataAdapter("select * from usuario where email = '"+Email.Text+"' and pass = '"+Password.Text+"';",cn.conexion);
+            SqlDataAdapter sda = new SqlDataAdapter("select * from usuario where cuenta = '"+Email.Text+"' and pass = '"+Password.Text+"';",cn.conexion);
             DataTable dt = new DataTable();
+
             sda.Fill(dt);
+
+            
 
             if (dt.Rows.Count.ToString()=="1")
             {
-                Session["user"] = Email.Text;
-                Response.Redirect("WebForm1.aspx");
+                DataRow row = dt.Rows[0];
+                Session["user"] = row["nombre"].ToString();
+                Session["cuenta"] = Email.Text;
+                Response.Redirect("WebForm2.aspx");
             }
 
             else

@@ -7,25 +7,23 @@ using System.Web.UI.WebControls;
 
 namespace Pro_AYD2_1.Account
 {
-    public partial class WebForm1 : System.Web.UI.Page
+    public partial class WebForm2 : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
-            if(Session["user"]!=null)
+            if (Session["cuenta"] != null)
             {
+                noCuenta.Text = Session["cuenta"].ToString();
                 sesion.Text = Session["user"].ToString();
-                
             }
             else
             {
                 Response.Redirect("/");
             }
 
-
         }
 
-        protected void Logout_Click(object sender, EventArgs e)
+        protected void logo_Click(object sender, EventArgs e)
         {
             Session.RemoveAll();
             Response.Redirect("/");
