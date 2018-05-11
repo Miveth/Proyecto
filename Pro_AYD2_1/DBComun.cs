@@ -53,5 +53,12 @@ namespace Pro_AYD2_1
             conexion.Close();
 
         }
+
+        public int suma(int a, int b)
+        {
+
+
+            return a + b;
+        }
     }
 }
