@@ -11,7 +11,7 @@
     SELECCIONE LA OPCION QUE DESEE CONSULTAR</span></strong><br />
     <br />
     <br />
-    <asp:Button ID="Button1" runat="server" Font-Bold="True" Font-Size="Large" Height="45px" Text="CONSULTAR SALDO" Width="386px" />
+    <asp:Button ID="Button1" runat="server" Font-Bold="True" Font-Size="Large" Height="45px" Text="CONSULTAR SALDO" Width="386px" OnClick="Button1_Click" />
     <br />
     <br />
     <br />

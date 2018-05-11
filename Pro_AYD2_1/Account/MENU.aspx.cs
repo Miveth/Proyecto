@@ -35,5 +35,10 @@ namespace Pro_AYD2_1.Account
             Session.RemoveAll();
             Response.Redirect("/");
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Consultar.aspx");
+        }
     }
 }

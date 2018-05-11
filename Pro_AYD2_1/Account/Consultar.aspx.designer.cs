@@ -10,7 +10,7 @@
 namespace Pro_AYD2_1.Account {
     
     
-    public partial class WebForm2 {
+    public partial class Consultar {
         
         /// <summary>
         /// Control sesion.
@@ -31,13 +31,31 @@ namespace Pro_AYD2_1.Account {
         protected global::System.Web.UI.WebControls.Label noCuenta;
         
         /// <summary>
+        /// Control nombre.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label nombre;
+        
+        /// <summary>
+        /// Control apellido.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label apellido;
+        
+        /// <summary>
         /// Control cuenta.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox cuenta;
+        protected global::System.Web.UI.WebControls.Label cuenta;
         
         /// <summary>
         /// Control monto.
@@ -46,7 +64,16 @@ namespace Pro_AYD2_1.Account {
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox monto;
+        protected global::System.Web.UI.WebControls.Label monto;
+        
+        /// <summary>
+        /// Control consulta.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button consulta;
         
         /// <summary>
         /// Control mensaje.
@@ -56,15 +83,6 @@ namespace Pro_AYD2_1.Account {
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label mensaje;
-        
-        /// <summary>
-        /// Control transferencia.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button transferencia;
         
         /// <summary>
         /// Control Button1.

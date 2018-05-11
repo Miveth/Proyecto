@@ -66,5 +66,10 @@ namespace Pro_AYD2_1.Account
             
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Consultar.aspx");
+        }
     }
 }   
