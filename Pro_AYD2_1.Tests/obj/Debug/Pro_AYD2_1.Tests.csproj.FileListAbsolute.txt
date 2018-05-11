@@ -38,11 +38,9 @@ C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\EntityFramework.xml
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
-C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\es\Microsoft.Owin.resources.dll
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\es\System.Web.Optimization.resources.dll
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Core.resources.dll
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\es\Microsoft.AspNet.Identity.Owin.resources.dll
-C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\es\Microsoft.Owin.Security.resources.dll
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\es\Microsoft.AspNet.FriendlyUrls.resources.dll
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\es\EntityFramework.resources.dll
@@ -50,3 +48,10 @@ C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\obj\Debug\Pro_AYD2_1.Tests.csprojResolveAssemblyReference.cache
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\obj\Debug\Pro_AYD2_1.Tests.dll
 C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\obj\Debug\Pro_AYD2_1.Tests.pdb
+C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\Antlr3.Runtime.dll
+C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\WebGrease.dll
+C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\Antlr3.Runtime.pdb
+C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ROBIN SALVATIERRA\Desktop\Cursos\analisis y diseño 2\Lab\proyecto\git_pr\Proyecto\Pro_AYD2_1.Tests\bin\Debug\Newtonsoft.Json.xml
